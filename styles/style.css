@@ -1,6 +1,9 @@
 .menu {
 }
 .header_menu_list {
+  display: flex;
+  gap: 50px;
+  list-style: circle;
 }
 .logo {
 }
@@ -33,4 +36,24 @@
 
 .theme_bright {
   background-color: white;
+}
+
+.logo {
+  display: block;
+}
+
+.none-decoration {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.contacts {
+  max-width: 240px;
+  justify-content: end;
+}
+
+.ggh {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
 }

@@ -39,7 +39,10 @@ button {
 
 header {
   margin: 0px;
-  padding: 92px 50 px 100px;
+  padding: 92px 50px 96px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
 }
 
 footer {
