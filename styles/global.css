@@ -33,15 +33,11 @@ img {
   width: 100%;
 }
 
-button {
-  font: inherit;
-}
-
 header {
   margin: 0px;
   padding: 92px 50px 96px;
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 4fr min-content 4fr;
   align-items: center;
 }
 

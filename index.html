@@ -10,67 +10,67 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header class = "theme_bright">
-      <nav class="menu">
-        <ul class="header_menu_list">
-          <li class="header_menu_item none-decoration">
-            <a class="header_menu_link none-decoration" href="#0">Главная</a>
+    <header class = "header theme_bright">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item none-decoration">
+            <a class="header_menu_link none-decoration" href="#0">главная</a>
           </li>
-          <li class="header-menu-item">
-            <a class="header_menu_link" href="#0">Посмотреть лоты</a>
+          <li class="header__links-list-item">
+            <a class="header_menu_link underlined-text" href="#0">посмотреть лоты</a>
           </li>
-          <li class="header_menu_item">
-            <a class="header_menu_link" href="#0">Об аукционе</a>
+          <li class="header__links-list-item">
+            <a class="header_menu_link underlined-text" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="logo" href = "#0">
-        <img class = "header_logo_image" src ="./images/logo-black.svg" alt =
+      <a class="logo">
+        <img class = "header__logo-image" src ="./images/logo-black.svg" alt =
         "логотип проекта"/>
       </a>
-      <adress class="contacts">
-        <<a href="tel:+70000000">+9 999 555 5555</a>
-        <a href="mailto:mail@example.com">info@sobaka.ge</a>
-        <br class = "postal-address">наб. Принсенграхт 263-</br>265, Амстердам</p>
+      <address class="address header__address">
+        <a class = "phone-mumber underlined-text" href="tel:+70000000">+9 999 555 5555</a>
+        <a class = "e-mail underlined-text" href="mailto:mail@example.com"> info@sobaka.ge</a>
+        <p class = "postal-address"></p> наб. Принсенграхт 263-</br>265, Амстердам </p>
       </adress>
     </header>
     <main>
       <section class="cover">
-        <h1 class="main_header">ОНО ТЕБЕ НАДО</h1>
-        <div class="description">
-          <p class="info">Аукцион вещей, в которые никто не верил</p>
-          <button class="button">Сделать ставку</button>
+        <div class = "overlay"> </div>
+        <h1 class = "cover_title">
+          <span class = "aligned-text-left blocked">оНО</span>
+          <span class = "aligned-text-center blocked"> ТЕБЕ </span> 
+          <span class = "aligned-text-right blocked"> НАДО </span>
+        </h1>
+        <div class="cover_description">
+          <p class= "cover_text">Аукцион вещей, в которые никто не верил</p>
+          <button class="bet-button uppercased">Сделать ставку</button>
         </div>
       </section>
       <section class="lots theme_bright">
-        <h2 class="section_header">Лоты</h2>
-        <ul>
-          <li>
-            <a href = "#0"> Фильм режиссёра, который бросил киношколу</a>
-              <article><p class="main_text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p></article
-            ></a>
+        <h2 class="lots__heading section_header">Лоты</h2>
+        <ul class = "lots__card-list">
+          <li class = "lots__card-list-item">
+            <article  class = "card card_type_film"><a class = "card-link uppercased" href = "#0"> Фильм режиссёра, который бросил киношколу</a>
+              <p class="main_text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p></article
+            ></a> </article>
           </li>
-          <li>
-            <a href = "#0" >Книга, где описан один скучный день из жизни рекламного агента</a>
-              <article>
-                <p class="main_text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-              </article></a
-            >
+          <li class = "lots__card-list-item">
+            <article class = "card card_type_book"><a class = "card-link uppercased" href = "#0" >Книга, где описан один скучный день из жизни рекламного агента</a>
+                <p class="main_text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p></a
+            ></article>
           </li>
-          <li>
-            <a href = "#0">Картина, которую повторит даже 5-летний сын маминой подруги</a>
-              <article>
-                <p class="main_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-              </article></a
-            >
+          <li class = "lots__card-list-item">
+            <article class = "card card_type_picture"><a class = "card-link uppercased" href = "#0">Картина, которую повторит даже 5-летний сын маминой подруги</a>
+                <p class="main_text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p></a
+            ></article>
           </li>
         </ul>
         <a class="link">посмотреть больше</a>
       </section>
       <section class="about theme_bright">
         <div class = "first_column">
-          <img class = "about_logo" src = "./images/logo-white.svg" alt = "логотип проекта"
-        </div>
+          <img class = "about_logo" src = "./images/logo-white.svg" alt = "логотип проекта"/> </div>
         <div class = "second_column">
           <h2 class="section_header">Об аукционе</h2>
           <p class="main_text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
@@ -80,11 +80,11 @@
       </section>
     </main>
     <footer>
-      <adress class="contacts theme_bright">
-        <p class = "phone_number">+9 999 555 5555</p>
-        <p class = "email">info@sobaka.ge</p>
-        <p class = "postal address">наб. Принсенграхт 263- 265, Амстердам</p>
-      </adress>
+      <adвress class="address theme_bright">
+        <a href="tel:+70000000">+7 9153484004 <br></a>
+        <a href="mailto:mail@example.com"> info@sobaka.ge</a>
+        <p> наб. Принсенграхт 263-265, Амстердам </p>
+      </adвress>
       <nav class="menu"></nav>
       <ul class="footer_menu_list">
         <li class="footer_menu_item">
