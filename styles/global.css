@@ -40,8 +40,3 @@ header {
   grid-template-columns: 4fr min-content 4fr;
   align-items: center;
 }
-
-footer {
-  margin-top: 180px;
-  padding: 1px 50px 82px;
-}
