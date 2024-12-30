@@ -274,7 +274,7 @@
   margin-top: 106px;
   font: inherit;
   border: 1px solid #ffffff;
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   color: white;
   background: transparent;
   min-height: 51px;
@@ -289,17 +289,7 @@
   margin-right: 50px;
 }
 
-.youtube_logo {
-  width: 48px;
-  height: 48px;
-}
-
-.vk_logo {
-  width: 48px;
-  height: 48px;
-}
-
-.pinterest_logo {
+.footer__social-image {
   width: 48px;
   height: 48px;
 }
@@ -328,4 +318,8 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   width: 73.7px;
+}
+
+.main_footer_menu_link {
+  text-decoration: none;
 }
